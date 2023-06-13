@@ -1,0 +1,49 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .jokes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .jokes-table th,
+  .jokes-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Mobile view */
+  @media (max-width: 767px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .jokes-table th,
+    .jokes-table td {
+      padding: 5px;
+    }
+  }
+  
+  /* Desktop view */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .jokes-table th,
+    .jokes-table td {
+      padding: 10px;
+    }
+   
+  }
+  
